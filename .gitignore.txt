@@ -1,0 +1,49 @@
+# ---------------------------
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+.secrete
+
+# ---------------------------
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# ---------------------------
+# Local datasets and exports
+*.csv
+*.xlsx
+*.faiss
+*.pkl
+*.db
+*.sqlite
+*.json
+
+# ---------------------------
+# Logs / temp
+*.log
+*.tmp
+search_log.txt
+prevention_list.csv
+
+# ---------------------------
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE project files
+.vscode/
+.idea/
+
+# ---------------------------
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
